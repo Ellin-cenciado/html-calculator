@@ -46,4 +46,3 @@ function handleInput(x) {
   document.getElementById("final-result").innerText = input;
   console.log(input);
 }
-//this
