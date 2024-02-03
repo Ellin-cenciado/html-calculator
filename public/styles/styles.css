@@ -8,7 +8,7 @@ html{
 body{
     background: #A2D2FF;
 }
-#calculator-wrapper{
+#root{
     display: flex;
     justify-content: center;
 }
@@ -37,6 +37,11 @@ body{
 }
 #button-set{
     padding:10%
+}
+#equal{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
 }
 .button,.op-button{
     padding:10px;
